@@ -150,8 +150,7 @@ h1 {
     padding-bottom: 0.3em;
 }
 
-h2::after {
-    content: "🚀 ";
+h2 {
     padding-top: 0.8em;
     font-size: 125%;
 }
