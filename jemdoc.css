@@ -151,9 +151,12 @@ h1 {
 }
 
 h2 {
-    content: " 🚀";
     padding-top: 0.8em;
     font-size: 125%;
+}
+.h2::after {
+    content: " 🚀";
+    margin-left: 4px;
 }
 
 h2 + h3 {
